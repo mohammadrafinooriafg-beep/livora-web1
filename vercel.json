@@ -5,7 +5,11 @@
       "destination": "/privacy.html"
     },
     {
-      "source": "/((?!privacy).*)",
+      "source": "/terms",
+      "destination": "/terms.html"
+    },
+    {
+      "source": "/((?!privacy|terms).*)",
       "destination": "/index.html"
     }
   ]
