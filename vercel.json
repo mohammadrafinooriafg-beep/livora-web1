@@ -9,7 +9,11 @@
       "destination": "/terms.html"
     },
     {
-      "source": "/((?!privacy|terms).*)",
+      "source": "/delete-account",
+      "destination": "/delete-account.html"
+    },
+    {
+      "source": "/((?!privacy|terms|delete-account).*)",
       "destination": "/index.html"
     }
   ]
